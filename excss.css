@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+.box{
+    background:black;
+    border-width:thick;
+    border-style:dashed;
+    border-color:white;
+    border-radius: 20px;
+    color:white;
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.boxbody{
+    background:black;
+    border-width:thick;
+    border-style:dashed;
+    border-color:white;
+    border-radius: 20px;
+    color:white;
+    margin-top: 30px;
+    margin:10px 50px;
+    padding:5px;
+}
+header{
+    color:white;
+}
+nav ul li{
+    display: inline-block;
+}
+.home{
+    color:white;
+    padding:16px;
+    font-size:16px;
+    cursor:pointer;
+}
+.dropdown{
+    position:relative;
+}
+.dropdown-menu{
+    color:white;
+    padding:16px;
+    font-size:16px;
+    cursor:pointer;
+}
+.dropdown-content{
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width:160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+
+    display:none;
+}
+.dropdown-content a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-menu:hover:not(.home){
+    background-color: rgb(9, 41, 20);
+    color:white;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+.dropdown-content a:hover{
+    background-color:#f1f1f1;
+}
+body{
+    background-image:url(https://cdn.dribbble.com/users/895834/screenshots/11085377/media/1c688f705be5c56697a78d614c1963f5.gif);
+    background-repeat: no-repeat;
+    background-size : cover;
+    background-attachment:scroll;
+}
+.button{
+    width:150px;
+    height:70px;
+    background-color:black;
+    color:white;
+    border:5px solid white;
+    border-radius: 30px;
+    text-align: center;
+    padding:100px 50px;
+    float:left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.button > a{
+    display:inline-block;
+    line-height:70px;
+}
+a { text-decoration: none; color:white; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
